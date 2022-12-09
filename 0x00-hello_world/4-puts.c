@@ -7,7 +7,7 @@
  *   *
  *
  *    * Return: always 0
- *
+ * *this is a betty comment
  *     */
 
 int main(void)
