@@ -6,11 +6,9 @@
  */
 int main(void)
 {
-	printf("size of a char: %d byte(s)\n", sizeof(char));
-	printf("size of an int: %d byte(s)\n", sizeof(int));
-	printf("size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("size of long long int: %d byte(s)\n", sizeof(long long int));
-	printf("size of float: %d byte(s)\n", sizeof(float));
+	(gcc 6-size.c -m32 -o size32 2> /tmp/32)
+	(gcc 6-size.c -m64 -o size64 2> /tmp/64)
 	return (0)
 }
+
 
