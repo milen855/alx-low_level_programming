@@ -1,3 +1,4 @@
+#including <stdio.h>
 #including "main.h"
 /**
  * print_alphabet - prints alphabet
