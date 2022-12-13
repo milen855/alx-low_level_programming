@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- * print_alphabet - prints alphabet
+ * main - check the code for Holberton School students
  *
  * Return: always 0;
  */
