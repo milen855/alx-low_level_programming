@@ -8,4 +8,5 @@ Returns 0 otherwise"
 Prototype: int _isdigit(int c);
 Returns 1 if c is a digit
 Returns 0 otherwise"
-
+2. Collaboration is multiplication
+"Write a function that multiplies two integers."
