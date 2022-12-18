@@ -38,3 +38,6 @@ Prototype: void jack_bauer(void)"
 #!/bin/bash
 "Write a function that prints the 9 times table, starting with 0.
 Prototype: void times_table(void);"
+#!bin/bash
+"Write a function that adds two integers and returns the result.
+Prototype: int add(int, int)"
