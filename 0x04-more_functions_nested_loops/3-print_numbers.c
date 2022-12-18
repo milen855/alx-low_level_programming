@@ -2,15 +2,18 @@
 #include "_putchar.c"
 
 /**
- * print_numbers - checks for a digit (0 through 9).
+ * print_numbers - prints numbers from 0 to 9.
  *
- * Return: Always 0.
+ * Return: nothing on success
  */
 void print_numbers(void)
 {
-	 for (c = 48; c < 58; c++)
+	 int start = 0, end = 9;
+
+	 while (start <= end)
 	 {
-		 _putchar(c);
+		 _putchar(start + '0');
+		 start++;
 	 }
 	 _putchar('\n');
 }
