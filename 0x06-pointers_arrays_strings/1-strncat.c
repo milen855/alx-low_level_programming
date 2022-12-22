@@ -7,8 +7,9 @@
  * @src: input value
  * @n: input value
  *
- * REturn: nothing on success.
+ * Return: nothing on success.
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
@@ -19,6 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
+	
 	j = 0;
 	while (j < n && src[j] != '\0')
 	{
@@ -26,6 +28,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
+	
 	dest[i] = '\0';
 	return (dest);
 }
