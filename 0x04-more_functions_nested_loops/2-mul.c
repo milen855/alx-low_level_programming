@@ -3,11 +3,12 @@
  * mul - checks for a digit (0 through 9)
  * @a: a-Variable
  * @b: b-variable
- * Return: Always 0.
+ * 
+ * Return: nothing on success
  */
 int mul(int a, int b)
 {
-	 int mul;
+	int mul;
 	 
 	 mul = a * b;
 	 return (mul);
