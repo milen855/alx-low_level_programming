@@ -6,7 +6,8 @@
  * @key: is the key. can not be an empty string
  * @value: the value associated with the key.
  *
- * Returns: 1 if it succeeded, 0 otherwise
+ * Return: Upon failure - 0.
+ *         Otherwise - 1.
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
