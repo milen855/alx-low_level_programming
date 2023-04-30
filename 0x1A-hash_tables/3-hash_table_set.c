@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_set - adds or update an element to the hash tabel
+ * hash_table_set - adds or update an element to the hash table
  * @ht: is the hash table you want to add or update the key/value to
  * @key: is the key. can not be an empty string
  * @value: the value associated with the key.
